@@ -6,6 +6,7 @@ import spark.template.freemarker.FreeMarkerEngine;
 
 public class WebApp {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 		staticFileLocation("/resources"); 
